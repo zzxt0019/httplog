@@ -1,0 +1,8 @@
+server:
+  port: 8089
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///log2?characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
